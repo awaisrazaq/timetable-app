@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react"
-import TimetableGrid from "../components/Timetable/TimetableGrid"
-import Header from "../components/Layout/Header"
-import Footer from "../components/Layout/Footer"
+import TimetableGrid from "@/components/Timetable/TimetableGrid"
+import Footer from "@/components/Layout/Footer"
 import { Button } from "@/components/ui/button"
-import Modal from "../components/UI/Modal"
-import EventForm from "../components/Timetable/EventForm"
+import Modal from "@/components/ui/modal"
+import EventForm from "@/components/Timetable/EventForm"
 
 export default function Home() {
   const [events, setEvents] = useState([])
